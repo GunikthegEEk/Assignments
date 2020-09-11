@@ -1,0 +1,16 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "cStandard": "gnu11",
+            "intelliSenseMode": "${default}",
+            "compilerPath": "C:/MinGWforVSC/bin/g++.exe"
+        }
+    ],
+    "version": 4
+}
