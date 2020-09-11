@@ -43,3 +43,32 @@ print(res)
 res = matrix1 @ matrix2 
 print("Multiplication Result (@ operator):")
 print(res)
+
+'''
+OUTPUT:
+Enter the number of Rows:2
+Enter the number of Columns:2
+Enter Matrix-1 Data:
+4
+12
+6
+3
+Enter Matrix-2 Data:
+5
+1
+23
+7
+Matrices Data:
+4 12
+6 3
+----
+5 1
+23 7
+----
+Multiplication Result (dot product):
+[[296  88]
+ [ 99  27]]
+Multiplication Result (@ operator):
+[[296  88]
+ [ 99  27]]
+'''
