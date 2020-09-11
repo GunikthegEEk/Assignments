@@ -33,3 +33,36 @@ arr = df.to_numpy()
 
 print('\nNumpy Array\n----------\n', arr)
 print('\nNumpy Array Datatype :', arr.dtype)
+
+'''
+OUTPUT:
+
+DataFrame
+----------
+       Name  Age   Grade  PUBG BAN Reaction  IG Survival Time(mins)  Avg. Daily Time Spent Playing(hours)
+0    Gunik   21     BCA          Satisfied                       7                                   1.0
+1  Jaineet   21     BBA      Dissatisfied                       18                                   2.0
+2   Gaurav   19    12th  Very Dissatisfied                      22                                   3.0
+3    Ayush   24  M.Tech        Indifferent                      10                                   0.5
+4      Jog   20   B.Com  Very Dissatisfied                       4                                   2.0
+
+DataFrame datatypes :
+ Name                                     object
+Age                                       int64
+Grade                                    object
+PUBG BAN Reaction                        object
+IG Survival Time(mins)                    int64
+Avg. Daily Time Spent Playing(hours)    float64
+dtype: object
+
+Numpy Array
+----------
+ [['Gunik' 21 'BCA' 'Satisfied' 7 1.0]
+ ['Jaineet' 21 'BBA' 'Dissatisfied ' 18 2.0]
+ ['Gaurav' 19 '12th' 'Very Dissatisfied' 22 3.0]
+ ['Ayush' 24 'M.Tech' 'Indifferent' 10 0.5]
+ ['Jog' 20 'B.Com' 'Very Dissatisfied' 4 2.0]]
+
+Numpy Array Datatype : object
+
+'''
